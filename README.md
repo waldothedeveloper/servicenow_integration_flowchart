@@ -1,36 +1,23 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# ServiceNow Integration Decision Tree
 
-## Getting Started
+This project is an interactive decision-making tool based on the original idea from [**Jochen Geist**](https://www.servicenow.com/community/user/viewprofilepage/user-id/399227), a ServiceNow employee. It aims to guide users through choosing the best integration pattern for connecting ServiceNow with third-party systems. By making this tool interactive, you can answer a series of questions and be guided through a decision tree to find the most suitable integration pattern.
 
-First, run the development server:
+Additionally, this project allows you to save your integration decisions and come back to review them at anytime.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+The original post by Jochen Geist can be found [here](https://www.servicenow.com/community/architect-blog/integration-design-how-to-choose-the-best-pattern-to-integrate/ba-p/2874114?emcs_t=S2h8ZW1haWx8Ym9hcmRfc3Vic2NyaXB0aW9ufExVMkpWSk85UERPMEVRfDI4NzQxMTR8U1VCU0NSSVBUSU9OU3xoSw).
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- Interactive decision tree to choose the right ServiceNow integration pattern.
+- Save your integration choices and come back to them later.
+- Built with **Next.js** using the **App Router**.
+- Backend uses **Firebase** for storing user decisions and data.
+- Open to community contributions and improvements.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## License
 
-## Learn More
+This project is licensed under the MIT License
 
-To learn more about Next.js, take a look at the following resources:
+## Contributing
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This is an open-source project, and I’m not making a cent from this. Anyone is welcome to submit a PR with ideas or improvements.
